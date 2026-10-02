@@ -111,3 +111,19 @@ ul.menu {
 #headshot-container {
     text-align: center;
 }
+
+/* Unvisited link */
+a:link {
+    font-weight: 600;
+    color: #0bc5f4;
+}
+
+/* Visited link */
+a:visited {
+    color: #6e38c7;
+}
+
+/* Mouse over link */
+a:hover {
+    color: #33485e;
+}
