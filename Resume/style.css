@@ -1,6 +1,6 @@
 /* styles for my resume */
 
-body {
+#resumebody {
      font-family: Arial, sans-serif;
      color: #444;
      font-size: 1;
@@ -126,4 +126,48 @@ a:visited {
 /* Mouse over link */
 a:hover {
     color: #33485e;
+}
+
+/* Non-Resume Pages */
+
+h1 {
+    font-family: "Space Grotesk", sans-serif;
+}
+
+h2 {
+    font-family: "Space Grotesk", sans-serif;
+}
+
+p {
+    font-family: "IBM Plex Serif", serif;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+
+nav {
+    background-color: #000;
+    text-align: center;
+    padding: 10px;
+}
+
+a#navtitle {
+    font-size: 1rem;
+    color: #fff;
+    font-family: "Arial", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+a#nametitle {
+    font-size: 1rem;
+    color: #fff;
+    font-family: "Arial", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: auto;
 }
