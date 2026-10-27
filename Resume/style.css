@@ -1,7 +1,8 @@
 /* styles for my resume */
 
-#resumebody {
+.resume {
      font-family: Arial, sans-serif;
+     background-image:none;
      color: #444;
      font-size: 1;
 }
@@ -73,6 +74,7 @@ li {
 
 .description {
     margin: 10px 0;
+    font-weight: normal;
 }
 
 ul.menu {
@@ -132,14 +134,17 @@ a:hover {
 
 h1 {
     font-family: "Space Grotesk", sans-serif;
+    color: #8B0000;
 }
 
 h2 {
     font-family: "Space Grotesk", sans-serif;
+    color: #8B0000;
 }
 
 p {
     font-family: "IBM Plex Serif", serif;
+    font-weight:bold;
 }
 
 nav {
@@ -172,3 +177,48 @@ a#nametitle {
     margin-right: auto;
 }
 
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 15px 25px;
+}
+
+.footer-socials,
+.footer-contact {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-socials {
+    justify-content: flex-start;
+}
+
+.footer-contact {
+    justify-content: flex-end;
+}
+
+p.footertitle,
+a.footermedia {
+    font-size: 1rem;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+p.footertitle {
+    margin: 0;
+}
+
+a.footermedia:hover {
+    text-decoration: underline;
+}
+
+body {
+  background-image: url('pexels-diva-33937109.jpg');
+  background-size: cover;
+  background-position: center;
+}
