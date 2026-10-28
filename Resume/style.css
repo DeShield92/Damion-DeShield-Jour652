@@ -132,21 +132,48 @@ a:hover {
 
 /* Non-Resume Pages */
 
-h1 {
+h1.page-heading {
     font-family: "Space Grotesk", sans-serif;
-    color: #8B0000;
+    color: #FF0000;
+    font-size: 2.5rem;
 }
 
-h2 {
+h2.section-heading {
     font-family: "Space Grotesk", sans-serif;
-    color: #8B0000;
+    color: #FF0000;
+    font-size: 2rem;
 }
 
-p {
+h3 {
+    font-size: 1.4rem;
+}
+  
+
+p.home-and-about {
     font-family: "IBM Plex Serif", serif;
     font-weight:bold;
+    font-size: 18px;
+    margin-bottom: 1.25rem;
 }
 
+.section-heading {
+    margin-bottom: 24px;
+}
+  
+
+ul#skills {
+    font-family: "IBM Plex Serif", serif;
+    font-weight:bold;
+    font-size: 18px;
+}
+
+.certification-image {
+  display: block;
+  width: 120px;
+  max-width: 40%;
+  height: auto;
+  margin-left: auto;
+}
 nav {
     display: flex;
     gap: 20px;
@@ -160,7 +187,7 @@ nav {
     padding: 10px;
 }
 
-a#navtitle {
+a.navtitle {
     font-size: 1rem;
     color: #fff;
     font-family: "Arial", sans-serif;
@@ -168,7 +195,7 @@ a#navtitle {
     text-decoration: none;
 }
 
-a#nametitle {
+a.nametitle {
     font-size: 1rem;
     color: #fff;
     font-family: "Arial", sans-serif;
@@ -218,7 +245,31 @@ a.footermedia:hover {
 }
 
 body {
-  background-image: url('pexels-diva-33937109.jpg');
+  background-image: url('mansygradient.jpg');
   background-size: cover;
   background-position: center;
+}
+
+.about-heading {
+  padding-top: 120px;
+}
+
+.about-heading h1 {
+  margin-bottom: 25px;
+}
+
+.about-heading p {
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.about-image {
+  margin-top: 100px;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
 }

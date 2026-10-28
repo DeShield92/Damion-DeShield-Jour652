@@ -12,13 +12,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     
     <!-- Google Fonts -->
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    >
     
     <!-- Created CSS Stylesheet -->
 
@@ -30,10 +29,10 @@
      <!-- Masthead -->
 
       <nav>
-        <a href="index.html" id="nametitle"> Damion DeShield </a>
-        <a href="index.html" id="navtitle"> Home </a>
-        <a href="about.html" id="navtitle"> About </a>
-        <a href="resume.html" id="navtitle"> Resume </a>
+        <a href="index.html" class="nametitle"> Damion DeShield </a>
+        <a href="index.html" class="navtitle"> Home </a>
+        <a href="about.html" class="navtitle"> About </a>
+        <a href="resume.html" class="navtitle"> Resume </a>
       </nav>
       
       <!-- Headshot -->
@@ -47,9 +46,9 @@
           <!-- Intro, Position, & Value Proposition  -->
 
           <div class="col-sm-5 offset-sm-1"> <br> <br> <br> 
-          <h1> Hello, I'm Damion! </h1> <br> 
-           <p> I'm an Operations Coordinator specializing in IT and Process / Product Improvement. </p> 
-           <p> I utilize my project coordination skills to drive efficiency by bridging the gap between technological innovation and business needs. </p>
+          <h1 class="page-heading"> Hello, I'm Damion! </h1> <br>
+           <p class="home-and-about"> I'm an Operations Coordinator specializing in IT and Process / Product Improvement. </p> 
+           <p class="home-and-about"> I utilize my project coordination skills to drive efficiency by bridging the gap between technological innovation and business needs. </p>
         </div>
         </div>
         
@@ -68,9 +67,9 @@
 
          <div class="row">
             <div class="col-sm-5 offset-sm-7">
-              <h1> Contact Me </h1>
-              <p> 301-532-3284 </p>
-              <p> damion.deshield@gmail.com</p>
+              <h2 class="section-heading"> Contact Me </h2>
+              <p class="home-and-about"> 301-532-3284 </p>
+              <p class="home-and-about"> damion.deshield@gmail.com</p>
             </div>
           </div>
         
@@ -78,8 +77,8 @@
 
           <div class="row">
             <div class="col-sm-6"> <br> <br> <br> 
-             <h1> My Background </h1> <br>
-              <p> I have several years of experience in business administration, with an emphasis in operations and marketing. More recently, I have developed expertise in project coordination. My current education has afforded me the skills and knowledge of product lifecyles, prototyping, coding, and general IT principles. </p>
+             <h2 class="section-heading"> My Background </h2> <br>
+              <p class="home-and-about"> I have several years of experience in business administration, with an emphasis in operations and marketing. More recently, I have developed expertise in project coordination. My current education has afforded me the skills and knowledge of product lifecyles, prototyping, coding, and general IT principles. </p>
             </div> 
           </div> <br> <br> <br>
           
@@ -87,8 +86,8 @@
 
               <div class="row"> 
                 <div class="col-sm-5 offset-sm-7"> 
-                  <h1> Skills </h1> 
-                  <ul>
+                  <h2 class="section-heading"> Skills </h2> 
+                  <ul id="skills">
                     <li> <em> CompTia Tech+ Certification </em> </li>
                     <li> <em> Methodology </em> </li>
                     <li> <em> Process Improvement </em> </li>
@@ -98,20 +97,25 @@
                   </ul> <br>
 
                   <div class="col-sm-7 offset-sm-5"> 
-                    <img class="CompTiaTech+Img" src="CompTiaTech+.png" alt="CompTia Tech+ Certification" width="25%">
+                    <img
+                    src="CompTiaTech+.png"
+                    alt="CompTIA Tech+ certification"
+                    class="certification-image img-fluid"
+                    >
+
                   </div>
                 
                 </div>
 
                 
 
-              </div> <br> <br> <br>
+              </div> <br> <br> <br> <br> <br>
               
               <!-- Work Experience -->
 
                <div class="row">
                   <div class="col-sm-6">
-                  <h1> Work Experience </h1> 
+                  <h2 class="section-heading"> Work Experience </h2>
                   </div>
               </div>
               
@@ -119,13 +123,13 @@
                <div class="row">
                   <div class="col-sm-5 offset-sm-7"> <br> <br> <br> 
                     <h2> Coordinator </h2>
-                    <p> University of Maryland Smith School of Business / Dec. 2024 - Present</p> <br> <br>
+                    <p class="home-and-about"> University of Maryland Smith School of Business / Dec. 2024 - Present</p> <br> <br>
                     <h2> Federal Advocacy Intern </h2>
-                    <p> National League of Cities / Feb. 2024 - Aug. 2024 </p> <br> <br>
+                    <p class="home-and-about"> National League of Cities / Feb. 2024 - Aug. 2024 </p> <br> <br>
                     <h2> Library Associate </h2>
-                    <p> Montgomery County Public Libraries / Sept. 2023 - Aug. 2024</p> <br> <br>
+                    <p class="home-and-about"> Montgomery County Public Libraries / Sept. 2023 - Aug. 2024</p> <br> <br>
                     <h2> Marketing & Program Coordinator </h2>
-                    <p> Students' Work & Travel Ltd. / Jan. 2015 - Jan. 2017 </p>
+                    <p class="home-and-about"> Students' Work & Travel Ltd. / Jan. 2015 - Jan. 2017 </p>
                   </div>
                </div>
       </div>
